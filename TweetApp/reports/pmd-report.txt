@@ -1,0 +1,347 @@
+src/dao/TweetDao.java:5:	CommentRequired:	CommentRequired: Class comments are required
+src/dao/TweetDao.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/dao/TweetDao.java:8:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAllTweets': the method is declared in an interface type
+src/dao/TweetDaoImpl.java:15:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/dao/TweetDaoImpl.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/dao/TweetDaoImpl.java:16:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the DB_url field if you want a default access modifier
+src/dao/TweetDaoImpl.java:16:	CommentRequired:	CommentRequired: Field comments are required
+src/dao/TweetDaoImpl.java:16:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dao/TweetDaoImpl.java:17:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the USER field if you want a default access modifier
+src/dao/TweetDaoImpl.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/dao/TweetDaoImpl.java:17:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dao/TweetDaoImpl.java:18:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the PASS field if you want a default access modifier
+src/dao/TweetDaoImpl.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/dao/TweetDaoImpl.java:18:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dao/TweetDaoImpl.java:19:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the tweetList field if you want a default access modifier
+src/dao/TweetDaoImpl.java:19:	CommentRequired:	CommentRequired: Field comments are required
+src/dao/TweetDaoImpl.java:19:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dao/TweetDaoImpl.java:20:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the user field if you want a default access modifier
+src/dao/TweetDaoImpl.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/dao/TweetDaoImpl.java:20:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dao/TweetDaoImpl.java:21:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the tweet field if you want a default access modifier
+src/dao/TweetDaoImpl.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/dao/TweetDaoImpl.java:21:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dao/TweetDaoImpl.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweet' is not assigned and could be declared final
+src/dao/TweetDaoImpl.java:26:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/dao/TweetDaoImpl.java:26:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/dao/TweetDaoImpl.java:27:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/dao/TweetDaoImpl.java:27:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:27:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/dao/TweetDaoImpl.java:27:	ShortVariable:	ShortVariable: Avoid variables with short names like ps
+src/dao/TweetDaoImpl.java:29:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:30:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:31:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:33:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:33:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'i' could be declared final
+src/dao/TweetDaoImpl.java:33:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/dao/TweetDaoImpl.java:39:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:40:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:42:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/dao/TweetDaoImpl.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'query' could be declared final
+src/dao/TweetDaoImpl.java:53:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/dao/TweetDaoImpl.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/dao/TweetDaoImpl.java:54:	CloseResource:	CloseResource: Ensure that resources like this Statement object are closed after use
+src/dao/TweetDaoImpl.java:54:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'stmt' could be declared final
+src/dao/TweetDaoImpl.java:55:	CloseResource:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/dao/TweetDaoImpl.java:55:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:55:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'rs' could be declared final
+src/dao/TweetDaoImpl.java:55:	ShortVariable:	ShortVariable: Avoid variables with short names like rs
+src/dao/TweetDaoImpl.java:57:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:58:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/dao/TweetDaoImpl.java:58:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:58:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 't' could be declared final
+src/dao/TweetDaoImpl.java:58:	ShortVariable:	ShortVariable: Avoid variables with short names like t
+src/dao/TweetDaoImpl.java:65:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:66:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:67:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:69:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/dao/TweetDaoImpl.java:75:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/dao/TweetDaoImpl.java:76:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'tweet' (lines '76'-'87').
+src/dao/TweetDaoImpl.java:76:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'tweet' (lines '76'-'101').
+src/dao/TweetDaoImpl.java:76:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'tweet' is never used (overwritten on line 87)
+src/dao/TweetDaoImpl.java:79:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/dao/TweetDaoImpl.java:79:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/dao/TweetDaoImpl.java:81:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/dao/TweetDaoImpl.java:81:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:81:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/dao/TweetDaoImpl.java:81:	ShortVariable:	ShortVariable: Avoid variables with short names like ps
+src/dao/TweetDaoImpl.java:82:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:84:	CloseResource:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/dao/TweetDaoImpl.java:84:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:84:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'rs' could be declared final
+src/dao/TweetDaoImpl.java:84:	ShortVariable:	ShortVariable: Avoid variables with short names like rs
+src/dao/TweetDaoImpl.java:86:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:87:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/dao/TweetDaoImpl.java:87:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:87:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:94:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:95:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:96:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/TweetDaoImpl.java:98:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/dao/UserDao.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/dao/UserDao.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/dao/UserDao.java:10:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAllUsers': the method is declared in an interface type
+src/dao/UserDao.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/dao/UserDao.java:11:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'login': the method is declared in an interface type
+src/dao/UserDao.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/dao/UserDao.java:12:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'forgotPassword': the method is declared in an interface type
+src/dao/UserDao.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/dao/UserDao.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/dao/UserDao.java:14:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'logout': the method is declared in an interface type
+src/dao/UserDaoImpl.java:19:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/dao/UserDaoImpl.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/dao/UserDaoImpl.java:20:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the DB_url field if you want a default access modifier
+src/dao/UserDaoImpl.java:20:	CommentRequired:	CommentRequired: Field comments are required
+src/dao/UserDaoImpl.java:20:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dao/UserDaoImpl.java:21:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the USER field if you want a default access modifier
+src/dao/UserDaoImpl.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/dao/UserDaoImpl.java:21:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dao/UserDaoImpl.java:22:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the PASS field if you want a default access modifier
+src/dao/UserDaoImpl.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/dao/UserDaoImpl.java:22:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dao/UserDaoImpl.java:25:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the fh field if you want a default access modifier
+src/dao/UserDaoImpl.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/dao/UserDaoImpl.java:25:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/dao/UserDaoImpl.java:25:	ShortVariable:	ShortVariable: Avoid variables with short names like fh
+src/dao/UserDaoImpl.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/dao/UserDaoImpl.java:30:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/dao/UserDaoImpl.java:30:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/dao/UserDaoImpl.java:31:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/dao/UserDaoImpl.java:31:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/dao/UserDaoImpl.java:31:	ShortVariable:	ShortVariable: Avoid variables with short names like ps
+src/dao/UserDaoImpl.java:33:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:34:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:35:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:36:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:37:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:39:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:39:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'i' could be declared final
+src/dao/UserDaoImpl.java:39:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/dao/UserDaoImpl.java:45:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:46:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:48:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/dao/UserDaoImpl.java:56:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'userList' could be declared final
+src/dao/UserDaoImpl.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'query' could be declared final
+src/dao/UserDaoImpl.java:59:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/dao/UserDaoImpl.java:59:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/dao/UserDaoImpl.java:60:	CloseResource:	CloseResource: Ensure that resources like this Statement object are closed after use
+src/dao/UserDaoImpl.java:60:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:60:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'stmt' could be declared final
+src/dao/UserDaoImpl.java:61:	CloseResource:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/dao/UserDaoImpl.java:61:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:61:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'rs' could be declared final
+src/dao/UserDaoImpl.java:61:	ShortVariable:	ShortVariable: Avoid variables with short names like rs
+src/dao/UserDaoImpl.java:62:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:64:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/dao/UserDaoImpl.java:64:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:64:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:64:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:64:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'u' could be declared final
+src/dao/UserDaoImpl.java:64:	ShortVariable:	ShortVariable: Avoid variables with short names like u
+src/dao/UserDaoImpl.java:65:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:70:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:71:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:72:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:74:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/dao/UserDaoImpl.java:80:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/dao/UserDaoImpl.java:80:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/dao/UserDaoImpl.java:81:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/dao/UserDaoImpl.java:82:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'm' (lines '82'-'114').
+src/dao/UserDaoImpl.java:82:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'm' could be declared final
+src/dao/UserDaoImpl.java:82:	ShortVariable:	ShortVariable: Avoid variables with short names like m
+src/dao/UserDaoImpl.java:86:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'formatter' could be declared final
+src/dao/UserDaoImpl.java:89:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/dao/UserDaoImpl.java:89:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/dao/UserDaoImpl.java:90:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'query' could be declared final
+src/dao/UserDaoImpl.java:91:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/dao/UserDaoImpl.java:91:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:91:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/dao/UserDaoImpl.java:91:	ShortVariable:	ShortVariable: Avoid variables with short names like ps
+src/dao/UserDaoImpl.java:92:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:93:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:95:	CloseResource:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/dao/UserDaoImpl.java:95:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:95:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'rs' could be declared final
+src/dao/UserDaoImpl.java:95:	ShortVariable:	ShortVariable: Avoid variables with short names like rs
+src/dao/UserDaoImpl.java:96:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:97:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:105:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:106:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:110:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/dao/UserDaoImpl.java:117:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/dao/UserDaoImpl.java:117:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/dao/UserDaoImpl.java:117:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/dao/UserDaoImpl.java:119:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/dao/UserDaoImpl.java:119:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/dao/UserDaoImpl.java:120:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'query' could be declared final
+src/dao/UserDaoImpl.java:121:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/dao/UserDaoImpl.java:121:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:121:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/dao/UserDaoImpl.java:121:	ShortVariable:	ShortVariable: Avoid variables with short names like ps
+src/dao/UserDaoImpl.java:123:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:124:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:125:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:127:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:127:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'i' could be declared final
+src/dao/UserDaoImpl.java:127:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/dao/UserDaoImpl.java:134:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:135:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:137:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/dao/UserDaoImpl.java:143:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'newpass' is not assigned and could be declared final
+src/dao/UserDaoImpl.java:143:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/dao/UserDaoImpl.java:143:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/dao/UserDaoImpl.java:146:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'u' could be declared final
+src/dao/UserDaoImpl.java:146:	ShortVariable:	ShortVariable: Avoid variables with short names like u
+src/dao/UserDaoImpl.java:147:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newpass1' could be declared final
+src/dao/UserDaoImpl.java:150:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'query' could be declared final
+src/dao/UserDaoImpl.java:151:	CloseResource:	CloseResource: Ensure that resources like this PreparedStatement object are closed after use
+src/dao/UserDaoImpl.java:151:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:151:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ps' could be declared final
+src/dao/UserDaoImpl.java:151:	ShortVariable:	ShortVariable: Avoid variables with short names like ps
+src/dao/UserDaoImpl.java:153:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:154:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:155:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:157:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:157:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'i' could be declared final
+src/dao/UserDaoImpl.java:157:	ShortVariable:	ShortVariable: Avoid variables with short names like i
+src/dao/UserDaoImpl.java:164:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:165:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:167:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/dao/UserDaoImpl.java:171:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/dao/UserDaoImpl.java:171:	MissingOverride:	MissingOverride: The method 'logout()' is missing an @Override annotation.
+src/dao/UserDaoImpl.java:172:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'm' (lines '172'-'192').
+src/dao/UserDaoImpl.java:172:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'm' could be declared final
+src/dao/UserDaoImpl.java:172:	ShortVariable:	ShortVariable: Avoid variables with short names like m
+src/dao/UserDaoImpl.java:176:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'formatter' could be declared final
+src/dao/UserDaoImpl.java:179:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'query' could be declared final
+src/dao/UserDaoImpl.java:180:	CloseResource:	CloseResource: Ensure that resources like this Connection object are closed after use
+src/dao/UserDaoImpl.java:180:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'con' could be declared final
+src/dao/UserDaoImpl.java:181:	CloseResource:	CloseResource: Ensure that resources like this Statement object are closed after use
+src/dao/UserDaoImpl.java:181:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:181:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'stmt' could be declared final
+src/dao/UserDaoImpl.java:182:	CloseResource:	CloseResource: Ensure that resources like this ResultSet object are closed after use
+src/dao/UserDaoImpl.java:182:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:182:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'rs' could be declared final
+src/dao/UserDaoImpl.java:182:	ShortVariable:	ShortVariable: Avoid variables with short names like rs
+src/dao/UserDaoImpl.java:184:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:185:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/dao/UserDaoImpl.java:190:	AvoidPrintStackTrace:	AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.
+src/entity/Tweet.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/entity/Tweet.java:3:	DataClass:	DataClass: The class 'Tweet' is suspected to be a Data Class (WOC=9.091%, NOPA=0, NOAM=6, WMC=11)
+src/entity/Tweet.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/entity/Tweet.java:5:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/entity/Tweet.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/entity/Tweet.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/entity/Tweet.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/entity/Tweet.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/entity/Tweet.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetname' is not assigned and could be declared final
+src/entity/Tweet.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/entity/Tweet.java:18:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/entity/Tweet.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id2' is not assigned and could be declared final
+src/entity/Tweet.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tw' is not assigned and could be declared final
+src/entity/Tweet.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username2' is not assigned and could be declared final
+src/entity/Tweet.java:18:	ShortVariable:	ShortVariable: Avoid variables with short names like tw
+src/entity/Tweet.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/entity/Tweet.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/entity/Tweet.java:32:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/entity/Tweet.java:32:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/entity/Tweet.java:40:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tweetName' is not assigned and could be declared final
+src/entity/Tweet.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/entity/User.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/entity/User.java:3:	DataClass:	DataClass: The class 'User' is suspected to be a Data Class (WOC=13.333%, NOPA=0, NOAM=9, WMC=15)
+src/entity/User.java:3:	ShortClassName:	ShortClassName: Avoid short class names like User
+src/entity/User.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/entity/User.java:5:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/entity/User.java:5:	UnusedPrivateField:	UnusedPrivateField: Avoid unused private fields such as 'id'.
+src/entity/User.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/entity/User.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/entity/User.java:8:	CommentRequired:	CommentRequired: Field comments are required
+src/entity/User.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/entity/User.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/entity/User.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/entity/User.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/entity/User.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/entity/User.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fname' is not assigned and could be declared final
+src/entity/User.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'lname' is not assigned and could be declared final
+src/entity/User.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/entity/User.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/entity/User.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/entity/User.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/entity/User.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fname' is not assigned and could be declared final
+src/entity/User.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'lname' is not assigned and could be declared final
+src/entity/User.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'uname' is not assigned and could be declared final
+src/entity/User.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'username' is not assigned and could be declared final
+src/entity/User.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'fname' is not assigned and could be declared final
+src/entity/User.java:63:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'lname' is not assigned and could be declared final
+src/entity/User.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/entity/User.java:79:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/entity/User.java:79:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setPassword' should not return any type except void linguistically
+src/entity/User.java:79:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final
+src/menu/MainMenu.java:15:	CommentRequired:	CommentRequired: Class comments are required
+src/menu/MainMenu.java:15:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/menu/MainMenu.java:17:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the dao field if you want a default access modifier
+src/menu/MainMenu.java:17:	CommentRequired:	CommentRequired: Field comments are required
+src/menu/MainMenu.java:17:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/menu/MainMenu.java:17:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/menu/MainMenu.java:18:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the tdao field if you want a default access modifier
+src/menu/MainMenu.java:18:	CommentRequired:	CommentRequired: Field comments are required
+src/menu/MainMenu.java:18:	DefaultPackage:	DefaultPackage: Use explicit scoping instead of the default package private level
+src/menu/MainMenu.java:18:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/menu/MainMenu.java:19:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/menu/MainMenu.java:21:	CloseResource:	CloseResource: Ensure that resources like this InputStream object are closed after use
+src/menu/MainMenu.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'scan' could be declared final
+src/menu/MainMenu.java:22:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "************************************" appears 6 times in this file; the first occurrence is on line 22
+src/menu/MainMenu.java:25:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'selectedOption' (lines '25'-'33').
+src/menu/MainMenu.java:25:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'selectedOption' is never used (overwritten on line 33)
+src/menu/MainMenu.java:28:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "--------------------------------------" appears 19 times in this file; the first occurrence is on line 28
+src/menu/MainMenu.java:34:	ImplicitSwitchFallThrough:	ImplicitSwitchFallThrough: A switch statement does not contain a break
+src/menu/MainMenu.java:42:	DoNotTerminateVM:	DoNotTerminateVM: System.exit() should not be used in J2EE/JEE apps
+src/menu/MainMenu.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/menu/MainMenu.java:51:	NcssCount:	NcssCount: The method 'guestMenu()' has a NCSS line count of 65.
+src/menu/MainMenu.java:52:	CloseResource:	CloseResource: Ensure that resources like this InputStream object are closed after use
+src/menu/MainMenu.java:52:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'scan' could be declared final
+src/menu/MainMenu.java:56:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'selectedOption' (lines '56'-'69').
+src/menu/MainMenu.java:56:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'selectedOption' is never used (overwritten on line 69)
+src/menu/MainMenu.java:70:	ImplicitSwitchFallThrough:	ImplicitSwitchFallThrough: A switch statement does not contain a break
+src/menu/MainMenu.java:73:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'em' could be declared final
+src/menu/MainMenu.java:73:	ShortVariable:	ShortVariable: Avoid variables with short names like em
+src/menu/MainMenu.java:75:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'pass' could be declared final
+src/menu/MainMenu.java:83:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'username' could be declared final
+src/menu/MainMenu.java:85:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fname' could be declared final
+src/menu/MainMenu.java:87:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'lname' could be declared final
+src/menu/MainMenu.java:89:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email' could be declared final
+src/menu/MainMenu.java:91:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'password' could be declared final
+src/menu/MainMenu.java:92:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'u1' could be declared final
+src/menu/MainMenu.java:92:	ShortVariable:	ShortVariable: Avoid variables with short names like u1
+src/menu/MainMenu.java:101:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'username1' could be declared final
+src/menu/MainMenu.java:103:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'email1' could be declared final
+src/menu/MainMenu.java:105:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newpass' could be declared final
+src/menu/MainMenu.java:117:	DoNotTerminateVM:	DoNotTerminateVM: System.exit() should not be used in J2EE/JEE apps
+src/menu/MainMenu.java:126:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/menu/MainMenu.java:126:	ExcessiveMethodLength:	ExcessiveMethodLength: Avoid really long methods.
+src/menu/MainMenu.java:126:	NcssCount:	NcssCount: The method 'userMenu()' has a NCSS line count of 95.
+src/menu/MainMenu.java:127:	CloseResource:	CloseResource: Ensure that resources like this InputStream object are closed after use
+src/menu/MainMenu.java:127:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'scan' could be declared final
+src/menu/MainMenu.java:131:	DataflowAnomalyAnalysis:	DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'selectedOption' (lines '131'-'144').
+src/menu/MainMenu.java:131:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'selectedOption' is never used (overwritten on line 144)
+src/menu/MainMenu.java:145:	ImplicitSwitchFallThrough:	ImplicitSwitchFallThrough: A switch statement does not contain a break
+src/menu/MainMenu.java:152:	CloseResource:	CloseResource: Ensure that resources like this InputStream object are closed after use
+src/menu/MainMenu.java:152:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'br' could be declared final
+src/menu/MainMenu.java:152:	ShortVariable:	ShortVariable: Avoid variables with short names like br
+src/menu/MainMenu.java:154:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/menu/MainMenu.java:154:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/menu/MainMenu.java:156:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'username' could be declared final
+src/menu/MainMenu.java:158:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'tw' could be declared final
+src/menu/MainMenu.java:158:	ShortVariable:	ShortVariable: Avoid variables with short names like tw
+src/menu/MainMenu.java:160:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 't1' could be declared final
+src/menu/MainMenu.java:160:	ShortVariable:	ShortVariable: Avoid variables with short names like t1
+src/menu/MainMenu.java:173:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'username1' could be declared final
+src/menu/MainMenu.java:209:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'username2' could be declared final
+src/menu/MainMenu.java:211:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'password' could be declared final
+src/menu/MainMenu.java:213:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'newpass' could be declared final
+src/menu/MainMenu.java:228:	DoNotTerminateVM:	DoNotTerminateVM: System.exit() should not be used in J2EE/JEE apps
+src/menu/MainMenu.java:238:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/menu/MainMenu.java:238:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final

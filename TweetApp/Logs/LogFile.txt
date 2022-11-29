@@ -1,0 +1,4 @@
+Nov 29, 2022 10:47:01 AM dao.UserDaoImpl login
+INFO: aishwarya@gmail.com logged in user
+Nov 29, 2022 10:47:58 AM dao.UserDaoImpl logout
+INFO: aishwarya@gmail.com logged out successfully
